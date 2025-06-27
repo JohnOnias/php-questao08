@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(253, 246, 238);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+   
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75vh;
+    align-items: center;
+    text-align: center;
+}
+div.produtos {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: white;
+    
+}
+div.produtos:hover{
+    box-shadow: #d6f3e5 5px 5px;
+}
+.btn{
+    height: 45px;
+    width: 230px;
+    background-color:#d1eee0;
+    border: 2px solid #1ECD97;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1ECD97;
+}
+h1{
+    padding-top: 50px;
+}
+p{
+    margin-bottom: 3px;
+}
